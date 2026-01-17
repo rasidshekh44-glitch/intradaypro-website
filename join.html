@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intraday Trading Hub | Join Now</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Intraday<span>Pro</span></div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a class="active" href="join.html">Join Now</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </header>
+
+  <!-- Header -->
+  <section class="page-header">
+    <h1>Join Intraday Premium</h1>
+    <p>Fill the form and we will contact you within 10 minutes.</p>
+  </section>
+
+  <section class="section">
+    <div class="join-layout">
+
+      <div class="join-card">
+        <h2>Join Form</h2>
+
+        <form id="joinForm">
+          <label>Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+
+          <label>Mobile Number</label>
+          <input type="tel" id="phone" placeholder="Enter mobile number" required />
+
+          <label>Select Plan</label>
+          <select id="plan" required>
+            <option value="">Choose Plan</option>
+            <option value="Basic - ₹999/month">Basic - ₹999/month</option>
+            <option value="Premium - ₹2999/month">Premium - ₹2999/month</option>
+            <option value="Mentorship - ₹9999/1 time">Mentorship - ₹9999/1 time</option>
+          </select>
+
+          <label>Your Trading Experience</label>
+          <select id="experience" required>
+            <option value="">Select</option>
+            <option value="Beginner (0-6 months)">Beginner (0-6 months)</option>
+            <option value="Intermediate (6-24 months)">Intermediate (6-24 months)</option>
+            <option value="Advanced (2+ years)">Advanced (2+ years)</option>
+          </select>
+
+          <button type="submit" class="btn primary full">Submit & Get WhatsApp Link</button>
+        </form>
+
+        <p class="success-msg" id="successMsg"></p>
+      </div>
+
+      <div class="info-card">
+        <h2>Rules (Must Follow)</h2>
+        <ul>
+          <li>✅ Stoploss is compulsory</li>
+          <li>✅ No overtrading</li>
+          <li>✅ Use proper capital management</li>
+          <li>✅ Avoid revenge trading</li>
+          <li>✅ Follow levels strictly</li>
+        </ul>
+
+        <div class="note">
+          <strong>Note:</strong> We do not guarantee profits. Trading involves market risk.
+        </div>
+
+        <a class="btn secondary full" target="_blank"
+          href="https://wa.me/919999999999?text=Hi%20I%20want%20to%20join%20Intraday%20Premium">
+          Chat on WhatsApp
+        </a>
+
+        <p class="small">Replace 919999999999 with your WhatsApp number.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 IntradayPro. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
